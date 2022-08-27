@@ -1,0 +1,24 @@
+html {
+  font-family: "Noto Naskh Arabic", serif;
+}
+
+header{
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.438), rgba(0, 0, 0, 0.438)), url(../images/gh.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+
+.navbar{
+    box-shadow: 0px 1px 5px black ;
+}
+
+.navbar-brand , .nav-link{
+    color: white;
+    font-weight: 700;
+    font-size: larger;
+}
+.nav-link.active{
+    color:rgb( 163, 227, 240) !important;
+    text-shadow: 1px 1px 0 white;
+}
